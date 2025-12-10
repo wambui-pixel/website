@@ -1,4 +1,4 @@
-<!-- propeller.html -->
+<!-- mproxy.html -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,84 +6,47 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Propeller — WebAssembly Orchestrator for Edge & Cloud | Abstract Machines</title>
+  <title>mProxy — Multi-Protocol IoT Gateway | Abstract Machines</title>
 
   <!-- Primary Metadata -->
-  <meta name="title" content="Propeller — WebAssembly Orchestrator for Edge & Cloud | Abstract Machines" />
+  <meta name="title" content="mProxy — Multi-Protocol IoT Gateway | Abstract Machines" />
   <meta name="description"
-    content="Propeller is a WebAssembly (Wasm) orchestrator and rule engine built on SuperMQ. Deploy event-driven Wasm modules across edge and cloud with secure, sandboxed execution and full observability." />
+    content="mProxy is a lightweight, scalable IoT API gateway. Support seamless communication across MQTT, CoAP, HTTP, and WebSocket with real-time packet manipulation and pluggable auth." />
   <meta name="keywords"
-    content="Propeller, WebAssembly, Wasm, orchestrator, rule engine, edge computing, IoT, event-driven, SuperMQ, OpenTelemetry" />
+    content="mProxy, IoT Gateway, API Gateway, MQTT, CoAP, HTTP, WebSocket, Packet Manipulation, Observability" />
   <meta name="author" content="Abstract Machines" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="canonical" href="https://www.absmach.eu/propeller" />
+  <link rel="canonical" href="https://www.absmach.eu/mproxy" />
 
   <!-- Open Graph Links-->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Abstract Machines" />
-  <meta property="og:url" content="https://www.absmach.eu/propeller" />
-  <meta property="og:title" content="Propeller — WebAssembly Orchestrator for Edge & Cloud" />
+  <meta property="og:url" content="https://www.absmach.eu/mproxy" />
+  <meta property="og:title" content="mProxy — Multi-Protocol IoT Gateway" />
   <meta property="og:description"
-    content="Propeller is a WebAssembly (Wasm) orchestrator and rule engine built on SuperMQ. Deploy event-driven Wasm modules across edge and cloud with secure, sandboxed execution and full observability." />
+    content="mProxy is a lightweight, scalable IoT API gateway. Support seamless communication across MQTT, CoAP, HTTP, and WebSocket with real-time packet manipulation and pluggable auth." />
   <meta property="og:image" content="https://www.absmach.eu/img/logos/social-preview.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Propeller - WebAssembly Orchestrator by Abstract Machines" />
+  <meta property="og:image:alt" content="mproxy - WebAssembly Orchestrator by Abstract Machines" />
 
   <!-- Twitter Card Links-->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@absmach" />
-  <meta name="twitter:title" content="Propeller — WebAssembly Orchestrator for Edge & Cloud" />
+  <meta name="twitter:title" content="mProxy — Multi-Protocol IoT Gateway" />
   <meta name="twitter:description"
-    content="Propeller is a WebAssembly (Wasm) orchestrator and rule engine built on SuperMQ. Deploy event-driven Wasm modules across edge and cloud with secure, sandboxed execution and full observability." />
+    content="mProxy is a lightweight, scalable IoT API gateway. Support seamless communication across MQTT, CoAP, HTTP, and WebSocket with real-time packet manipulation and pluggable auth." />
   <meta name="twitter:image" content="https://www.absmach.eu/img/logos/social-preview.png" />
-  <meta name="twitter:image:alt" content="Propeller - WebAssembly Orchestrator by Abstract Machines" />
+  <meta name="twitter:image" content="https://www.absmach.eu/img/logos/social-preview.png" />
+  <meta name="twitter:image:alt" content="mproxy - WebAssembly Orchestrator by Abstract Machines" />
 
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="Abstract Machines" />
-  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="icon" href="/img/logos/abstract-machines_logo_symbol-white.svg" type="image/svg+xml">
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.absmach.eu/"
-          },{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Products",
-            "item": "https://www.absmach.eu/products/"
-          },{
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Propeller",
-            "item": "https://www.absmach.eu/propeller/"
-          }]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "Propeller",
-          "operatingSystem": "Linux, Multi-platform",
-          "applicationCategory": "DeveloperApplication",
-          "description": "Propeller is a WebAssembly orchestrator and rule engine for edge and cloud."
-        }
-      ]
-    }
-  </script>
 </head>
 
 <body>
@@ -109,8 +72,8 @@
               <li class="dropdown-header">Software</li>
               <li><a class="dropdown-item" target="_blank" href="https://magistrala.absmach.eu">Magistrala</a></li>
               <li><a class="dropdown-item" href="/supermq">SuperMQ</a></li>
-              <li><a class="dropdown-item" href="javascript:void(0)">Propeller</a></li>
-              <li><a class="dropdown-item" href="/mproxy">mProxy</a></li>
+              <li><a class="dropdown-item" href="/propeller">Propeller</a></li>
+              <li><a class="dropdown-item" href="javascript:void(0)">mProxy</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -157,51 +120,48 @@
     </div>
   </nav>
 
-
-
   <!-- Hero Section -->
   <section id="header" class="py-5 mt-md-5" style="font-size: 21px; min-height: 100vh; margin: 0;">
     <div class="container">
       <div class="row mt-md-5">
         <div class="col-md-6 mt-5">
-          <h1>Propeller</h1>
-          <p>Propeller is a WebAssembly (Wasm) orchestrator and rule engine built atop SuperMQ. It enables dynamic,
-            event-driven logic execution across distributed IoT and edge environments, allowing developers to deploy and
-            manage Wasm modules seamlessly.</p>
+          <h1>mProxy</h1>
+          <p>mProxy is a lightweight, scalable, and customizable IoT API gateway. It facilitates seamless communication
+            across multiple protocols including MQTT, CoAP, HTTP, and WebSocket. Built for flexibility, it supports
+            real-time packet manipulation, pluggable authentication, and deep observability.</p>
           <div class="mt-4">
-            <a href="https://github.com/absmach/propeller" class="btn btn-warning d-inline-block mb-2"
-              target="_blank">Download Propeller</a>
-            <a href="https://absmach.github.io/propeller-docs/" class="btn btn-dark d-inline-block mb-2"
-              target="_blank">Read
+            <a href="https://github.com/absmach/mproxy" class="btn btn-warning d-inline-block mb-2"
+              target="_blank">Download mProxy</a>
+            <a href="https://github.com/absmach/mproxy" class="btn btn-dark d-inline-block mb-2" target="_blank">Read
               the Docs &gt;</a>
           </div>
         </div>
         <div class="col-md-6 mt-5">
           <div class="d-flex align-items-center justify-content-center">
-            <img src="../img/patterns/propeller.png" alt="Propeller banner" class="img-fluid-large">
+            <img src="../img/patterns/mproxy.png" alt="mProxy banner" class="img-fluid-large">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- What is Propeller -->
+  <!-- What is mProxy -->
   <section class="py-5" style="font-size: 21px; background-color: #F5F5F5;">
     <div class="container">
       <div class="row">
         <div class="col-md-6 d-flex align-items-center justify-content-center">
-          <img src="../img/propeller-concept.png" alt="Propeller Concept" class="img-fluid">
+          <img src="../img/mgate-features.png" alt="mProxy Concept" class="img-fluid">
         </div>
         <div class="col-md-6 mt-5">
-          <h1>What is Propeller</h1>
-          <p>Propeller serves as the execution engine for Abstract Machines, enabling real-time, event-driven processing
-            through WebAssembly modules. It allows developers to write portable, secure, and high-performance logic that
-            can be deployed across diverse environments.</p>
-          <p>By leveraging SuperMQ's messaging capabilities, Propeller ensures that Wasm modules can react to events,
-            process data, and enforce rules efficiently, making it ideal for complex IoT and edge computing scenarios.
-          </p>
-          <p>Propeller is open-source and designed for extensibility, supporting various use cases from simple data
-            transformations to complex decision-making workflows.</p>
+          <h1>What is mProxy</h1>
+          <p>mProxy operates as an intelligent middle-layer that inspects and routes traffic between IoT devices and
+            services. Upon connection, it establishes a session with a remote protocol server, piping packets while
+            applying logic hooks for inspection or modification.</p>
+          <p>It is designed to scale horizontally and can be deployed flexibly: as a sidecar alongside existing
+            microservices (like an MQTT broker), as a standalone service for direct device interaction, or even embedded
+            as a library in Go applications.</p>
+          <p>With its modular architecture, mProxy allows you to extend support for new IoT protocols or middleware,
+            making it a future-proof solution for evolving IoT ecosystems.</p>
         </div>
       </div>
     </div>
@@ -212,87 +172,85 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center mt-5 mb-5">
-          <h2>Propeller Features</h2>
+          <h2>mProxy Features</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 mb-4">
           <div class="row">
             <div class="col-3 text-center">
-              <i class="fas fa-cogs fa-2x mb-3"></i>
+              <i class="fas fa-project-diagram fa-2x mb-3"></i>
             </div>
             <div class="col-9">
-              <h5 class="text-left mb-3">Wasm Module Orchestration</h5>
-              <p class="text-left">Deploy and manage WebAssembly modules dynamically, enabling portable logic execution
-                across devices and services.</p>
+              <h5 class="text-left mb-3">Multi-Protocol Support</h5>
+              <p class="text-left">Native support for MQTT, CoAP, HTTP, and WebSocket. Easily extendable to interface
+                with additional custom protocols.</p>
             </div>
           </div>
         </div>
         <div class="col-md-6 mb-4">
           <div class="row">
             <div class="col-3 text-center">
-              <i class="fas fa-bolt fa-2x mb-3"></i>
+              <i class="fas fa-random fa-2x mb-3"></i>
             </div>
             <div class="col-9">
-              <h5 class="text-left mb-3">Event-Driven Execution</h5>
-              <p class="text-left">Trigger Wasm execution in response to SuperMQ events, enabling responsive and
-                low-latency edge intelligence.</p>
+              <h5 class="text-left mb-3">On-the-Fly Manipulation</h5>
+              <p class="text-left">Inject custom logic or interceptors to modify incoming and outgoing messages in
+                real-time without altering the backend.</p>
             </div>
           </div>
         </div>
         <div class="col-md-6 mb-4">
           <div class="row">
             <div class="col-3 text-center">
-              <i class="fas fa-network-wired fa-2x mb-3"></i>
+              <i class="fas fa-user-lock fa-2x mb-3"></i>
             </div>
             <div class="col-9">
-              <h5 class="text-left mb-3">Seamless SuperMQ Integration</h5>
-              <p class="text-left">Built to work hand-in-hand with SuperMQ for ultra-fast message-driven orchestration.
-              </p>
+              <h5 class="text-left mb-3">Pluggable Authentication</h5>
+              <p class="text-left">Supports OAuth, JWT, and API Keys with fine-grained access control. Swap auth modules
+                to fit enterprise identity systems.</p>
             </div>
           </div>
         </div>
         <div class="col-md-6 mb-4">
           <div class="row">
             <div class="col-3 text-center">
-              <i class="fas fa-shield-alt fa-2x mb-3"></i>
-            </div>
-            <div class="col-9">
-              <h5 class="text-left mb-3">Sandboxed & Secure</h5>
-              <p class="text-left">Propeller runs each Wasm module in isolation, offering strong safety and
-                deterministic execution guarantees.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mb-4">
-          <div class="row">
-            <div class="col-3 text-center">
-              <i class="fas fa-chart-line fa-2x mb-3"></i>
+              <i class="fas fa-eye fa-2x mb-3"></i>
             </div>
             <div class="col-9">
               <h5 class="text-left mb-3">Observability</h5>
-              <p class="text-left">Integrated metrics, logs, and traces for performance monitoring and debugging across
-                Wasm executions.</p>
+              <p class="text-left">Real-time metrics, logging, and tracing. Integrates easily with Prometheus, Grafana,
+                and OpenTelemetry for troubleshooting.</p>
             </div>
           </div>
         </div>
         <div class="col-md-6 mb-4">
           <div class="row">
             <div class="col-3 text-center">
-              <i class="fas fa-code-branch fa-2x mb-3"></i>
+              <i class="fas fa-server fa-2x mb-3"></i>
             </div>
             <div class="col-9">
-              <h5 class="text-left mb-3">Open-Source & Extensible</h5>
-              <p class="text-left">Licensed under Apache 2.0. Extend Propeller to meet your needs, or contribute to the
-                growing Wasm community.</p>
+              <h5 class="text-left mb-3">Scalable & Lightweight</h5>
+              <p class="text-left">Optimized Golang architecture for low resource usage, capable of handling
+                high-throughput in data centers or edge devices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="row">
+            <div class="col-3 text-center">
+              <i class="fas fa-cubes fa-2x mb-3"></i>
+            </div>
+            <div class="col-9">
+              <h5 class="text-left mb-3">Flexible Deployment</h5>
+              <p class="text-left">Run it as a sidecar, a standalone gateway, or import it as a library. Fits perfectly
+                into Kubernetes pods or simple binaries.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
 
   <!-- Newsletter section -->
   <section id="newsletter" class="py-5">
@@ -343,6 +301,7 @@
     </div>
   </section>
   <!-- End of Newsletter section -->
+
 
 
 
@@ -411,7 +370,6 @@
     </div>
   </footer>
   <!-- End of Footer section -->
-
 
 
 
